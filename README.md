@@ -4,8 +4,7 @@ Simple boilerplate node utility to deploy files to an Amazon s3 bucket
 ## Getting Started
 
 - Install the `aws-sdk` and `dotenv` packages (npm install --save-dev aws-sdk dotenv)
-- Copy/clone `variables.env` and `s3-upload.js` files
-- Configure local and s3 routes for your project
+- Configure local and s3 routes for your project in `variables.env`
 - Run `node s3-upload` or use npm scripts in `package.json` and deploy files to the s3 server
 
 ## Quick notes
