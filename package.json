@@ -1,0 +1,32 @@
+{
+  "name": "aws-upload-utility",
+  "version": "1.0.0",
+  "description": "Boilerplate for node based upload utility",
+  "main": "s3-upload.js",
+  "scripts": {
+    "scripts": {
+      "deploy": "node s3-upload",
+      "deploy-css": "node s3-upload css",
+      "deploy-js": "node s3-upload bundle",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lofisoul/aws-upload-utility.git"
+  },
+  "keywords": [
+    "node",
+    "aws"
+  ],
+  "author": "Jason Nolfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lofisoul/aws-upload-utility/issues"
+  },
+  "homepage": "https://github.com/lofisoul/aws-upload-utility#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.648.0",
+    "dotenv": "^8.2.0"
+  }
+}
